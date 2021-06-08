@@ -1,0 +1,36 @@
+.header {
+    background-image: url('../img/header.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 500px;
+    z-index: 1;
+    color: #fff;
+}
+
+.opacity {
+    opacity: 0.9;
+    height: 500px;
+}
+
+.header img{
+    width: 70px;
+}
+
+nav {
+    height: 60px;
+}
+
+.navbar-brand {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+}
+
+main h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: #fff;
+}

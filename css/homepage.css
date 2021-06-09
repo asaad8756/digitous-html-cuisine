@@ -5,6 +5,8 @@
     height: 500px;
     z-index: 1;
     color: #fff;
+    filter: brightness(1.75);
+    
 }
 
 .opacity {
@@ -33,4 +35,30 @@ main h2 {
 
 .footer a {
     color: #fff;
+}
+
+/* RESPONSIVE */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .contact-hidden {
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .contact-hidden {
+        display: none;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
 }

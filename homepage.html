@@ -14,16 +14,17 @@
 </head>
 <body>
     <header class="header">
-        <div class="container-fluid bg-dark opacity">
+        <div class="container-fluid bg-dark opacity">    
             <nav class="navbar navbar-expand" aria-label="Second navbar example">
-                <div class="container-fluid">
+                <div class="container-fluid navbar-toggle">
                 <a class="navbar-brand text-white" href="#">Cui'zine</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- TODO: think about NAV-TOGGLE for mobile version -->
 
-                <div class="collapse navbar-collapse justify-content-space-around" id="navbarsExample02">
+                <div class="collapse navbar-collapse justify-content-space-around" id="navbarsExample04">
                     <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link text-white" aria-current="page" href="#">Accueil</a>
@@ -58,29 +59,29 @@
     <main class="container">
         <h2 class="text-center my-5">Derniers articles</h2>
         <div class="row my-4">
-            <div class="col-9">
+            <div class="col-sm-12 col-md-12 col-lg-9">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <img src="img/articles/suzette/suzette-header.jpg" class="img-fluid" alt="Suzette">
                     </div>
-                    <div class="col-9">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
                         <h3>Chez suzette, la nouvelle crêperie qui fait parler d'elle</h3>
                         <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son permier restaurant à Paris dans le quartier latin. Antonie de Cu'zine a testé pour vous le saveurs scurés, salés au froment ou au sarrazin!</p>
                     </div>
                 </div>
                 <!-- END row -->
                 <div class="row my-4">
-                    <div class="col-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <img src="img/articles/metro/metro-header.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="col-sm-12 col-md-12 col-lg-9">
                         <h3>Le Métro dessert</h3>
                         <p>Germain est ferrovipathe (ndlr: fan de train), son fils Maxime est pâtissier. Ils ont décidé de réunir leur deux passions dans un restaurant à la déco inspiré du métro parisien. A voir absolument, mais qu'en est-il d'y aller pour manger ? Clémentine entre en gare et nous donne son avis</p>
                     </div>
                 </div>
                 <!-- END row -->
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-sm-12 col-md-12 col-lg-3">
                         <img src="img/articles/vitaly/vitaly-header.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="col-9">
@@ -90,7 +91,7 @@
                 </div>
             </div>
             <!-- END col -->
-            <div class="col-3">
+            <div class="col-lg-3 contact-hidden">
                 <div class="d-grid">
                     <h5>Recherche</h5>
                     <input type="text" class="form-control" placeholder="Recherche...">
@@ -116,21 +117,21 @@
     <footer class="footer bg-dark text-white py-5 d-flex justify-content-center">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-md-12 col-lg-4">
                     <h4>Catégories</h4>
                     <p><a href="#">Revues</a></p>
                     <p><a href="#">Recettes</a></p>
                     <p><a href="#">Découvertes</a></p>
                 </div>
                 <!-- END col -->
-                <div class="col">
+                <div class="col-md-12 col-lg-4">
                     <h4>Archives</h4>
                     <p><a href="#">2019</a></p>
                     <p><a href="#">2018</a></p>
                     <p><a href="#">2017</a></p>
                 </div>
                 <!-- END col -->
-                <div class="col">
+                <div class="col-md-12 col-lg-4">
                     <h5>Newsletter</h5>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Email..." aria-label="Recipient's username" aria-describedby="basic-addon2">

@@ -21,16 +21,17 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url('../img/header.jpg');
     background-repeat:no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 450px;
     z-index: 1;
     color: #fff;
-    filter: brightness(1.75);
+    filter: brightness(300%);
     
 }
 
 .opacity {
     opacity: 0.9;
-    height: 500px;
+    height: 450px;
+    padding: 0;
 }
 
 .header img{

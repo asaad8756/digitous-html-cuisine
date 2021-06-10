@@ -24,8 +24,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 450px;
     z-index: 1;
     color: #fff;
-    filter: brightness(300%);
-    
 }
 
 .opacity {
@@ -42,6 +40,8 @@ nav {
     height: 60px;
 }
 
+
+
 .navbar-brand {
     font-family: 'Courgette', cursive;
     font-size: 2rem;
@@ -57,16 +57,15 @@ nav {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .contact-hidden {
-        display: none;
-    }
+    /* .contact-hidden {
+        display: none!important;
+    } */
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .contact-hidden {
-        display: none;
-    }
+   
 }
 
 /* Large devices (desktops, 992px and up) */
